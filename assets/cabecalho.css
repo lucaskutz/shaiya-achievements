@@ -1,0 +1,323 @@
+.container {
+    width: 100%;
+    
+   
+ }
+.cabecalhoPrincipal {
+  
+    display: flex;
+    border-radius:1px solid;
+    box-shadow: 1px 2px 10px 2px #00000090;
+}
+
+.cabecalhoPrincipal .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.cabecalhoPrincipal__titulo {
+    font-weight: bold;
+	font-size: 2em;
+	margin: 2rem 2rem;
+    font-family: "MedievalSharp";
+    
+ 
+}
+
+.cabecalhoPrincipal__titulo a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.cabecalhoPrincipal__nav {
+    display: flex;
+    font-family: "MedievalSharp";
+    
+}
+.cabecalhoPrincipal-nav__link {
+    padding: 10px;
+    text-decoration: none;
+    color: inherit;
+    padding: 2rem;
+    
+    
+}
+
+.conteudoPrincipal {
+    
+    height: 100%;
+}
+.conteudoPrincipal__imagem {     
+    display: block;
+    align-items: center;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.subtitulo {
+    font-weight: bold;
+    font-size: 4rem;
+    font-family: "MedievalSharp";
+    padding-top: 2rem;
+    text-align: center;
+    
+    
+    
+}
+
+.paragrafoPrincipal { 
+    font-family: "MedievalSharp";
+    font-size: 2rem;
+    display: flex;
+    text-align: center;
+    margin-top: 2rem;
+    padding: 6rem;
+    border-radius:1px solid;
+    box-shadow: 1px 2px 10px 2px #00000090;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+
+}
+
+.imagem {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 15px;
+    width: 360px;
+}
+
+.imagem1 {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.conquista__coluna {
+    display: flex;
+    
+}
+.conquista__lista{
+    display: flex;
+}
+
+.conquistas__titulo {
+    font-weight: bold;
+	font-size: 4rem;
+	padding: 4rem;
+    font-family: "MedievalSharp";
+    text-align: center;
+   
+    
+    
+   
+}
+
+.conquita__titulo {
+    font-size: 1.5rem;
+    margin: 1rem;
+    font-family: "MedievalSharp";
+    display: flex;
+    padding-bottom: 2rem;
+    
+    
+    
+   
+    
+}
+
+.conquista__ajuste{
+    border-radius:1px solid;
+    box-shadow: 1px 2px 10px 2px #00000090;
+    width: 300px;
+    margin: 0 auto;
+    
+    
+    
+}
+
+    
+    
+    
+.ajuste__paragrafo {
+   margin-left: 1rem;
+   padding: 2rem;
+   
+   
+}
+
+
+.imagem__lista{
+     width: 35px;
+     display: flex;
+     position: absolute;
+     margin-top: 1.5rem;
+     
+    
+
+}
+
+.ajuste__a {
+    display: flex;
+    flex-direction: column;
+    margin: 0 AUTO;
+    border-radius:1px solid;
+    box-shadow: 1px 2px 10px 2px #00000090;
+    margin-bottom: 3rem;
+   
+} 
+
+.img__status {
+    position: absolute;
+    display: flex;
+    margin-top: 7%;
+    margin-left: 39%;
+    opacity: 0.5;
+   height: 197px;
+    
+    
+}
+
+.img__status:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+    
+      
+        
+      
+
+
+.ajuste__botao {
+    padding: 1rem;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    max-width: 300px;
+    font-family: "MedievalSharp";
+    text-decoration: none;
+	color: inherit;
+    overflow: hidden;
+   
+    position: relative;
+    
+}
+
+.ajuste__botao:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    background: black;
+    z-index: -1;
+    
+}
+.botao1::before {
+    width: 0;
+    height: 100%;
+
+    top: 0;
+    left: 0;
+}
+
+.botao1:hover::before{
+    width: 100%;
+}
+
+
+
+.ajuste__botao:hover {
+    
+    transform: scale(1.2);
+    transition: 0.5s;
+    color: white;
+}
+
+.ajuste__botao2 {
+    padding: 1rem;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    max-width: 300px;
+    font-family: "MedievalSharp";
+    text-decoration: none;
+	color: inherit;
+    overflow: hidden;
+    margin-top: 2rem;
+    
+    
+    
+}
+
+.ajuste__botao2:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    background: black;
+    z-index: -1;
+    
+}
+.botao2::before {
+    width: 0;
+    height: 100%;
+
+    top: 0;
+    left: 0;
+}
+
+.botao2:hover::before{
+    width: 100%;
+}
+.ajuste__botao2:hover {
+    
+    transform: scale(1.2);
+    transition: 0.5s;
+    color: white    ;
+    
+    
+}
+
+.container__rodape {
+    width: 100%;
+    background-color: black;
+}
+
+
+.ajuste__rodape {
+    font-size: 1.5rem;
+    font-family: "MedievalSharp";
+    display: flex;
+    color: white;
+    padding: 20px;
+    justify-content: center;
+    
+}
+
+.container__rewards {
+    width: 100%;
+    padding-bottom: 2rem;
+  
+}
+.titulo__reward {
+    font-weight: bold;
+	font-size: 4rem;
+	padding: 4rem;
+    font-family: "MedievalSharp";
+    text-align: center;
+    border-top: 1px solid grey;
+}
