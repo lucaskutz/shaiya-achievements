@@ -28,7 +28,7 @@
 
 
 .cabecalhoPrincipal__titulo {
-    font-weight: bold;
+    
 	font-size: 2em;
 	margin: 2rem 2rem;
     
@@ -57,7 +57,7 @@
     padding: 2rem;
     font-size: 20px;
     font-family:'Ubuntu', sans-serif;
-    font-weight: bold;
+    
     
     
 }
@@ -75,7 +75,7 @@
 }
 
 .subtitulo {
-    font-weight: bold;
+    
     font-size: 4rem;
     font-family:'Ubuntu', sans-serif;
     padding-top: 2rem;
@@ -145,7 +145,7 @@
 }
 
 .conquistas__titulo {
-    font-weight: bold;
+    
 	font-size: 4rem;
 	padding: 4rem;
     font-family:'Ubuntu', sans-serif;
@@ -168,7 +168,7 @@
     display: flex;
     padding-bottom: 2rem;
     border-bottom: 1px solid grey;
-    font-weight: bold;
+    
     
     
     
@@ -377,7 +377,7 @@
 }
 
 .titulo__reward {
-    font-weight: bold;
+    
 	font-size: 4rem;
 	padding: 4rem;
     font-family:'Ubuntu', sans-serif;

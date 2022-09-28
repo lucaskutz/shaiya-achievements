@@ -1,0 +1,168 @@
+.container {
+    width: 100%;
+    background: rgb(9, 10, 15);
+    color: white;
+    font-family:'Ubuntu', sans-serif;
+    
+}
+
+ .container__principal {
+    width: 100%;
+    
+    
+ }
+.cabecalhoPrincipal {
+  
+    display: flex;
+    border-radius:1px solid;
+    box-shadow: 1px 2px 10px 2px #00000090;
+    
+}
+
+.cabecalhoPrincipal .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+
+.cabecalhoPrincipal__titulo {
+    
+	font-size: 2em;
+	margin: 2rem 2rem;
+    
+    
+    
+ 
+}
+
+.cabecalhoPrincipal__titulo a {
+	text-decoration: none;
+	color: white;
+    
+    
+}
+
+.cabecalhoPrincipal__nav {
+    display: flex;
+    
+    
+    
+}
+.cabecalhoPrincipal-nav__link {
+    padding: 10px;
+    text-decoration: none;
+    color: inherit;
+    padding: 2rem;
+    font-size: 20px;
+    font-family:'Ubuntu', sans-serif;
+    
+    
+    
+}
+
+.container__rewards {
+    width: 100%;
+    background-color: rgb(22, 37, 53);
+    padding-bottom: 14.3%;
+    
+    
+}
+.imagem__fundo1{
+    position: absolute;
+    margin-left: 73%;
+    
+}
+
+.imagem__fundo2{
+    position: absolute;
+}
+
+
+
+.titulo__rewards{  
+    font-size: 4rem;
+    font-family:'Ubuntu', sans-serif;
+    text-align: center;
+    color: white;
+    padding: 2rem;   
+}
+
+.ajuste__rewards{
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 auto;  
+    width: 40%;
+    justify-content: space-between;
+    border: 2px solid;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px 2px #00000090;
+    
+    
+    
+    
+}
+
+.ajuste__lista {
+    margin: 1rem;
+    width: 22%;
+    
+    
+    
+    
+}
+
+.ajuste__imagem{
+    padding-right: 1rem;
+    
+}
+
+
+.ajuste__botao {
+    display: inline-block;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    border: 1.5px solid black;
+    
+    justify-content: center;
+    border-radius: 5px;
+    font-family:'Ubuntu', sans-serif;
+    text-decoration: none;
+    color: inherit;
+    overflow: hidden;
+    margin-top: 0.3rem;
+    position: relative;
+    color:white;
+    
+    
+    
+}
+
+.ajuste__botao:hover {
+    transform: scale(1.1);
+    background-color: white;
+    transition: 0.5s;
+    color: black;
+    
+}
+
+
+
+.container__rodape {
+    width: 100%;
+    background:  rgb(9, 10, 15)
+}
+
+
+.ajuste__rodape {
+    font-size: 1.5rem;
+    font-family:'Ubuntu', sans-serif;
+    display: flex;
+    color: white;
+    padding: 20px;
+    justify-content: center;
+    
+}
+
+
